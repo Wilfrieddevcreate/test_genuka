@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Image from "next/image";
 const Header = () => {
   const [activeMenu, setActiveMenu] = useState("todays-task");
 
@@ -33,6 +33,7 @@ const Header = () => {
           </button>
         ))}
       </nav>
+      
     </header>
   );
 };

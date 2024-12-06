@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, {} from "next/image";
 import { useState } from "react";
 
 const TaskCard = ({
@@ -72,6 +72,8 @@ const TaskCard = ({
                 src={participant}
                 alt={`Participant ${index + 1}`}
                 className="w-8 h-8 rounded-full border-2 border-white"
+                width={40}
+                height={40}
               />
             ))}
 
