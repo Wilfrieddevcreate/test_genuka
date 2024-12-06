@@ -4,7 +4,7 @@ const FiltersBar = () => {
     <div className="bg-white">
       <div className="bg-white p-4 animate__animated animate__fadeIn animate__delay-3s">
         {/* Filters */}
-        <div className="flex items-center justify-center space-x-[35px] mt-6 text-gray-500">
+        <div className="flex items-center justify-center space-x-[25px] mt-6 text-gray-500">
           <button
             className="text-blue-500 text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-blue-700 "
           >

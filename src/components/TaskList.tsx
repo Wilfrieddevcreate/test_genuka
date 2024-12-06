@@ -1,4 +1,3 @@
-import { FC } from "react";
 import TaskCard from "./TaskCard";
 
 // Définir l'interface pour typer les données des cartes
@@ -55,7 +54,6 @@ const data: CardData[] = [
 ];
 
 // Card Component
-
 // HeroSection Component
 const TaskList = () => {
   return (

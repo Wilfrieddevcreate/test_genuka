@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 
 const TaskCard = ({
@@ -24,7 +25,7 @@ const TaskCard = ({
   return (
     <div className="bg-white animate__animated animate__fadeIn animate__delay-2s">
       <div
-        className={`bg-white p-6 rounded-xl shadow-md w-[540px] transition-all duration-300 ease-in-out transform ${
+        className={`bg-white p-6 rounded-xl shadow-md w-[490px] transition-all duration-300 ease-in-out transform ${
           isValidated ? "scale-105 bg-green-50" : "scale-100"
         }`}
       >
@@ -66,7 +67,7 @@ const TaskCard = ({
           {/* Avatars */}
           <div className="flex -space-x-2">
             {participants.slice(0, 3).map((participant, index) => (
-              <img
+              <Image
                 key={index}
                 src={participant}
                 alt={`Participant ${index + 1}`}

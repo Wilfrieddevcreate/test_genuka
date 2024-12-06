@@ -15,10 +15,10 @@ const Header = () => {
         {["messages", "todays-task", "last-activity"].map((menu) => (
           <button
             key={menu}
-            className={`relative px-4 pb-2 text-2xl font-medium ${
+            className={`relative px-4 pb-2 text-xl font-bold ${
               activeMenu === menu
                 ? "text-black font-bold"
-                : "text-gray-400 hover:text-gray-500"
+                : "text-gray-400 hover:text-gray-500 font-medium"
             }`}
             onClick={() => handleMenuClick(menu)}
           >
